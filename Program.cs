@@ -30,6 +30,10 @@
             {
                 Console.WriteLine(number1/number2);
             }
+            else 
+            {
+                Console.WriteLine("The operation is invalid. The possible values are '+', '-', '*' or '/'");
+            }
         }
     }
 }
